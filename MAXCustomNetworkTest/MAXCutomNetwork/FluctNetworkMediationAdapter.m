@@ -39,7 +39,7 @@
 
 - (void)loadRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告読み込み");
-    [delegate didLoadRewardedAd];
+//    [delegate didLoadRewardedAd];
 }
 
 - (void)showRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {

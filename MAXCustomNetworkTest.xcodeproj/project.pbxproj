@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0D210B27BE2CEB00AB916D /* FluctNetworkMediationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D210A27BE2CEB00AB916D /* FluctNetworkMediationAdapter.m */; };
 		9C5015A032BDA7CDF36335C2 /* Pods_MAXCustomNetworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D220765262F66462F1616A1F /* Pods_MAXCustomNetworkTest.framework */; };
 		DF5E035F5FAEBC00017217F3 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D994B9201595FD79150091 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework */; };
 		F583AA8F27BE123B001EDAF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AA8E27BE123B001EDAF6 /* AppDelegate.m */; };
@@ -44,6 +45,8 @@
 		2C88E1AA7E6432D379A01E9B /* Pods_MAXCustomNetworkTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAXCustomNetworkTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		415E3FB037B0F197E73BB092 /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4DDADFB11F15023D9855130E /* Pods-MAXCustomNetworkTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTestTests/Pods-MAXCustomNetworkTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D0D210927BE2CEB00AB916D /* FluctNetworkMediationAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluctNetworkMediationAdapter.h; sourceTree = "<group>"; };
+		6D0D210A27BE2CEB00AB916D /* FluctNetworkMediationAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FluctNetworkMediationAdapter.m; sourceTree = "<group>"; };
 		8446B744D25EAE462688AA2A /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D220765262F66462F1616A1F /* Pods_MAXCustomNetworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAXCustomNetworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A625EDD3ABDCA1069B312 /* Pods-MAXCustomNetworkTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTestTests.release.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTestTests/Pods-MAXCustomNetworkTestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +112,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6D0D210827BE2C5400AB916D /* MAXCutomNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				6D0D210927BE2CEB00AB916D /* FluctNetworkMediationAdapter.h */,
+				6D0D210A27BE2CEB00AB916D /* FluctNetworkMediationAdapter.m */,
+			);
+			path = MAXCutomNetwork;
+			sourceTree = "<group>";
+		};
 		B450D27BA681E1C0D99E3669 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +156,7 @@
 		F583AA8C27BE123B001EDAF6 /* MAXCustomNetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				6D0D210827BE2C5400AB916D /* MAXCutomNetwork */,
 				F583AA8D27BE123B001EDAF6 /* AppDelegate.h */,
 				F583AA8E27BE123B001EDAF6 /* AppDelegate.m */,
 				F583AA9027BE123B001EDAF6 /* SceneDelegate.h */,
@@ -416,6 +429,7 @@
 			files = (
 				F583AA9527BE123B001EDAF6 /* ViewController.m in Sources */,
 				F583AA8F27BE123B001EDAF6 /* AppDelegate.m in Sources */,
+				6D0D210B27BE2CEB00AB916D /* FluctNetworkMediationAdapter.m in Sources */,
 				F583AAA027BE123D001EDAF6 /* main.m in Sources */,
 				F583AA9227BE123B001EDAF6 /* SceneDelegate.m in Sources */,
 			);

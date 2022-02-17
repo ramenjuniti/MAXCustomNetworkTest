@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FluctNetworkMediationAdapter : ALMediationAdapter
+@interface FluctNetworkMediationAdapter : ALMediationAdapter<MARewardedAdapter, MARewardedAdapterDelegate>
 
 @end
 

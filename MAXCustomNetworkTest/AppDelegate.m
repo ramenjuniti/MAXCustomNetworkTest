@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    // Please make sure to set the mediation provider value to @"max" to ensure proper functionality
+    [ALSdk shared].mediationProvider = @"max";
+
+    [ALSdk shared].userIdentifier = @"USER_ID";
+
+    [[ALSdk shared] initializeSdkWithCompletionHandler:^(ALSdkConfiguration *configuration) {
+        // Start loading ads
+        NSLog(@"hoge");
+    }];
+    
     return YES;
 }
 

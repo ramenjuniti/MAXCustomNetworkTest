@@ -106,7 +106,6 @@
 				4DDADFB11F15023D9855130E /* Pods-MAXCustomNetworkTestTests.debug.xcconfig */,
 				D42A625EDD3ABDCA1069B312 /* Pods-MAXCustomNetworkTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

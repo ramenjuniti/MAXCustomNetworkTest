@@ -20,6 +20,7 @@
 
     // Please make sure to set the mediation provider value to @"max" to ensure proper functionality
     [ALSdk shared].mediationProvider = @"max";
+    [ALSdk shared].settings.isVerboseLogging = YES;
 
     [ALSdk shared].userIdentifier = @"USER_ID";
 

@@ -26,7 +26,7 @@
 
     [[ALSdk shared] initializeSdkWithCompletionHandler:^(ALSdkConfiguration *configuration) {
         // Start loading ads
-        NSLog(@"hoge");
+        NSLog(@"MAMediatedNetworkInfo: %@", [ALSdk shared].availableMediatedNetworks);
     }];
     
     return YES;

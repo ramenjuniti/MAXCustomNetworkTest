@@ -22,4 +22,6 @@
     return @"1.0.0.0.0";
 }
 
+- (void)destroy {}
+
 @end

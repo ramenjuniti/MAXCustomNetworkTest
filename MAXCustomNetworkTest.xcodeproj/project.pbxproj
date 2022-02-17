@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C5015A032BDA7CDF36335C2 /* Pods_MAXCustomNetworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D220765262F66462F1616A1F /* Pods_MAXCustomNetworkTest.framework */; };
+		DF5E035F5FAEBC00017217F3 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D994B9201595FD79150091 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework */; };
 		F583AA8F27BE123B001EDAF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AA8E27BE123B001EDAF6 /* AppDelegate.m */; };
 		F583AA9227BE123B001EDAF6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AA9127BE123B001EDAF6 /* SceneDelegate.m */; };
 		F583AA9527BE123B001EDAF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AA9427BE123B001EDAF6 /* ViewController.m */; };
@@ -17,6 +19,7 @@
 		F583AAAA27BE123D001EDAF6 /* MAXCustomNetworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AAA927BE123D001EDAF6 /* MAXCustomNetworkTestTests.m */; };
 		F583AAB427BE123D001EDAF6 /* MAXCustomNetworkTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AAB327BE123D001EDAF6 /* MAXCustomNetworkTestUITests.m */; };
 		F583AAB627BE123D001EDAF6 /* MAXCustomNetworkTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F583AAB527BE123D001EDAF6 /* MAXCustomNetworkTestUITestsLaunchTests.m */; };
+		F6A91A402DD7E218AA6BFA68 /* Pods_MAXCustomNetworkTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C88E1AA7E6432D379A01E9B /* Pods_MAXCustomNetworkTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19D994B9201595FD79150091 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C88E1AA7E6432D379A01E9B /* Pods_MAXCustomNetworkTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAXCustomNetworkTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		415E3FB037B0F197E73BB092 /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DDADFB11F15023D9855130E /* Pods-MAXCustomNetworkTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTestTests.debug.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTestTests/Pods-MAXCustomNetworkTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8446B744D25EAE462688AA2A /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D220765262F66462F1616A1F /* Pods_MAXCustomNetworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAXCustomNetworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42A625EDD3ABDCA1069B312 /* Pods-MAXCustomNetworkTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTestTests.release.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTestTests/Pods-MAXCustomNetworkTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5BAADFFB42ECF068C71BA1B /* Pods-MAXCustomNetworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest.release.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest/Pods-MAXCustomNetworkTest.release.xcconfig"; sourceTree = "<group>"; };
 		F583AA8A27BE123B001EDAF6 /* MAXCustomNetworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAXCustomNetworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F583AA8D27BE123B001EDAF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F583AA8E27BE123B001EDAF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +65,7 @@
 		F583AAAF27BE123D001EDAF6 /* MAXCustomNetworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAXCustomNetworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F583AAB327BE123D001EDAF6 /* MAXCustomNetworkTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXCustomNetworkTestUITests.m; sourceTree = "<group>"; };
 		F583AAB527BE123D001EDAF6 /* MAXCustomNetworkTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAXCustomNetworkTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		F9EC8EF271575C5A2D75EC86 /* Pods-MAXCustomNetworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAXCustomNetworkTest.debug.xcconfig"; path = "Target Support Files/Pods-MAXCustomNetworkTest/Pods-MAXCustomNetworkTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5015A032BDA7CDF36335C2 /* Pods_MAXCustomNetworkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A91A402DD7E218AA6BFA68 /* Pods_MAXCustomNetworkTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5E035F5FAEBC00017217F3 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E64ECE20D195845EA22F7FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EC8EF271575C5A2D75EC86 /* Pods-MAXCustomNetworkTest.debug.xcconfig */,
+				D5BAADFFB42ECF068C71BA1B /* Pods-MAXCustomNetworkTest.release.xcconfig */,
+				8446B744D25EAE462688AA2A /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig */,
+				415E3FB037B0F197E73BB092 /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig */,
+				4DDADFB11F15023D9855130E /* Pods-MAXCustomNetworkTestTests.debug.xcconfig */,
+				D42A625EDD3ABDCA1069B312 /* Pods-MAXCustomNetworkTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B450D27BA681E1C0D99E3669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D220765262F66462F1616A1F /* Pods_MAXCustomNetworkTest.framework */,
+				19D994B9201595FD79150091 /* Pods_MAXCustomNetworkTest_MAXCustomNetworkTestUITests.framework */,
+				2C88E1AA7E6432D379A01E9B /* Pods_MAXCustomNetworkTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F583AA8127BE123B001EDAF6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				F583AAA827BE123D001EDAF6 /* MAXCustomNetworkTestTests */,
 				F583AAB227BE123D001EDAF6 /* MAXCustomNetworkTestUITests */,
 				F583AA8B27BE123B001EDAF6 /* Products */,
+				3E64ECE20D195845EA22F7FC /* Pods */,
+				B450D27BA681E1C0D99E3669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F583AAB927BE123D001EDAF6 /* Build configuration list for PBXNativeTarget "MAXCustomNetworkTest" */;
 			buildPhases = (
+				58FAEB1D88D4CEC4CFAA4CE3 /* [CP] Check Pods Manifest.lock */,
 				F583AA8627BE123B001EDAF6 /* Sources */,
 				F583AA8727BE123B001EDAF6 /* Frameworks */,
 				F583AA8827BE123B001EDAF6 /* Resources */,
+				F55798B8AA7691CD13DFAA59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F583AABC27BE123D001EDAF6 /* Build configuration list for PBXNativeTarget "MAXCustomNetworkTestTests" */;
 			buildPhases = (
+				4D3166DE7B5C7679382D8DDB /* [CP] Check Pods Manifest.lock */,
 				F583AAA127BE123D001EDAF6 /* Sources */,
 				F583AAA227BE123D001EDAF6 /* Frameworks */,
 				F583AAA327BE123D001EDAF6 /* Resources */,
@@ -178,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F583AABF27BE123D001EDAF6 /* Build configuration list for PBXNativeTarget "MAXCustomNetworkTestUITests" */;
 			buildPhases = (
+				FB04AE2B8DAA169BDBE7A0E7 /* [CP] Check Pods Manifest.lock */,
 				F583AAAB27BE123D001EDAF6 /* Sources */,
 				F583AAAC27BE123D001EDAF6 /* Frameworks */,
 				F583AAAD27BE123D001EDAF6 /* Resources */,
+				66F196F0105742AAF314A12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3166DE7B5C7679382D8DDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAXCustomNetworkTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58FAEB1D88D4CEC4CFAA4CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAXCustomNetworkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F196F0105742AAF314A12C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55798B8AA7691CD13DFAA59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest/Pods-MAXCustomNetworkTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest/Pods-MAXCustomNetworkTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAXCustomNetworkTest/Pods-MAXCustomNetworkTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB04AE2B8DAA169BDBE7A0E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F583AA8627BE123B001EDAF6 /* Sources */ = {
@@ -439,6 +588,7 @@
 		};
 		F583AABA27BE123D001EDAF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EC8EF271575C5A2D75EC86 /* Pods-MAXCustomNetworkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +616,7 @@
 		};
 		F583AABB27BE123D001EDAF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BAADFFB42ECF068C71BA1B /* Pods-MAXCustomNetworkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +644,7 @@
 		};
 		F583AABD27BE123D001EDAF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDADFB11F15023D9855130E /* Pods-MAXCustomNetworkTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +668,7 @@
 		};
 		F583AABE27BE123D001EDAF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42A625EDD3ABDCA1069B312 /* Pods-MAXCustomNetworkTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +692,7 @@
 		};
 		F583AAC027BE123D001EDAF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8446B744D25EAE462688AA2A /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -560,6 +714,7 @@
 		};
 		F583AAC127BE123D001EDAF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415E3FB037B0F197E73BB092 /* Pods-MAXCustomNetworkTest-MAXCustomNetworkTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

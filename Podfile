@@ -6,6 +6,7 @@ target 'MAXCustomNetworkTest' do
   use_frameworks!
 
   # Pods for MAXCustomNetworkTest
+  pod 'AppLovinSDK'
 
   target 'MAXCustomNetworkTestTests' do
     inherit! :search_paths

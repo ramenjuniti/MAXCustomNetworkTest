@@ -43,14 +43,14 @@
 - (void)loadRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告読み込み");
     FSSRewardedVideo.sharedInstance.delegate = self;
-    [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:@"1000083204" unitId:@"1000124351"];
+    [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:parameters.customParameters[@"groupID"] unitId:parameters.customParameters[@"unitID"]];
     self.rewardedAdapterDelegate = delegate;
     
 }
 
 - (void)showRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告表示");
-    [FSSRewardedVideo.sharedInstance presentRewardedVideoAdForGroupId:@"1000083204" unitId:@"1000124351" fromViewController:[ALUtils topViewControllerFromKeyWindow]];
+    [FSSRewardedVideo.sharedInstance presentRewardedVideoAdForGroupId:parameters.customParameters[@"groupID"] unitId:parameters.customParameters[@"unitID"] fromViewController:[ALUtils topViewControllerFromKeyWindow]];
     [delegate didDisplayRewardedAd];
 }
 

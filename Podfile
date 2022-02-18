@@ -7,6 +7,7 @@ target 'MAXCustomNetworkTest' do
 
   # Pods for MAXCustomNetworkTest
   pod 'AppLovinSDK'
+  pod 'FluctSDK'
 
   target 'MAXCustomNetworkTestTests' do
     inherit! :search_paths

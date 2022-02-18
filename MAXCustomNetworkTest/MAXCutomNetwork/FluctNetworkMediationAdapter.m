@@ -10,6 +10,8 @@
 
 @interface FluctNetworkMediationAdapter () <FSSRewardedVideoDelegate>
 
+@property (nonatomic) id<MARewardedAdapterDelegate> rewardedAdapterDelegate;
+
 @end
 
 @implementation FluctNetworkMediationAdapter
@@ -17,8 +19,6 @@
 - (void)initializeWithParameters:(id<MAAdapterInitializationParameters>)parameters completionHandler:(void (^)(MAAdapterInitializationStatus initializationStatus, NSString *_Nullable errorMessage))completionHandler {
     
     NSLog(@"initializeWithParameters: %@", parameters.customParameters.description);
-    
-    FSSRewardedVideo.sharedInstance.delegate = self;
 
     completionHandler(MAAdapterInitializationStatusInitializedSuccess, nil);
 }
@@ -42,14 +42,43 @@
 
 - (void)loadRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告読み込み");
+    FSSRewardedVideo.sharedInstance.delegate = self;
     [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:@"1000083204" unitId:@"1000124351"];
-    [delegate didLoadRewardedAd];
+    self.rewardedAdapterDelegate = delegate;
+    
 }
 
 - (void)showRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告表示");
     [FSSRewardedVideo.sharedInstance presentRewardedVideoAdForGroupId:@"1000083204" unitId:@"1000124351" fromViewController:[ALUtils topViewControllerFromKeyWindow]];
     [delegate didDisplayRewardedAd];
+}
+
+
+- (void)rewardedVideoShouldRewardForGroupID:(NSString *)groupId unitId:(NSString *)unitId {
+    
+}
+- (void)rewardedVideoDidLoadForGroupID:(NSString *)groupId unitId:(NSString *)unitId {
+    NSLog(@"rewardedVideoDidLoadForGroupID");
+    [self.rewardedAdapterDelegate didLoadRewardedAd];
+}
+- (void)rewardedVideoDidFailToLoadForGroupId:(NSString *)groupId unitId:(NSString *)unitId error:(NSError *)error {
+    
+}
+- (void)rewardedVideoWillAppearForGroupId:(NSString *)groupId unitId:(NSString *)unitId {
+    
+}
+- (void)rewardedVideoDidAppearForGroupId:(NSString *)groupId unitId:(NSString *)unitId {
+    
+}
+- (void)rewardedVideoWillDisappearForGroupId:(NSString *)groupId unitId:(NSString *)unitId {
+    
+}
+- (void)rewardedVideoDidDisappearForGroupId:(NSString *)groupId unitId:(NSString *)unitId {
+    
+}
+- (void)rewardedVideoDidFailToPlayForGroupId:(NSString *)groupId unitId:(NSString *)unitId error:(NSError *)error {
+    
 }
 
 @end

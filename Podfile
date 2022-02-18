@@ -8,6 +8,8 @@ target 'MAXCustomNetworkTest' do
   # Pods for MAXCustomNetworkTest
   pod 'AppLovinSDK'
   pod 'FluctSDK'
+  pod 'FluctSDK-MediationAdapter/maio'
+  pod 'FluctSDK-MediationAdapter/nend'
 
   target 'MAXCustomNetworkTestTests' do
     inherit! :search_paths

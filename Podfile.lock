@@ -1,20 +1,36 @@
 PODS:
   - AppLovinSDK (11.1.1)
   - FluctSDK (6.15.0)
+  - FluctSDK-MediationAdapter/maio (6.15.0):
+    - FluctSDK (>= 6.14.0)
+    - MaioSDK (>= 1.5.8)
+  - FluctSDK-MediationAdapter/nend (6.15.0):
+    - FluctSDK (>= 6.14.0)
+    - NendSDK_iOS (>= 7.0.4)
+  - MaioSDK (1.6.0)
+  - NendSDK_iOS (7.1.0)
 
 DEPENDENCIES:
   - AppLovinSDK
   - FluctSDK
+  - FluctSDK-MediationAdapter/maio
+  - FluctSDK-MediationAdapter/nend
 
 SPEC REPOS:
   trunk:
     - AppLovinSDK
     - FluctSDK
+    - FluctSDK-MediationAdapter
+    - MaioSDK
+    - NendSDK_iOS
 
 SPEC CHECKSUMS:
   AppLovinSDK: a418677708090e2116e9080c3ca46cc81df7b8de
   FluctSDK: 0fd33a1dc14b0f9bd1adb0da4e60010de2c8d980
+  FluctSDK-MediationAdapter: 4c035faf9f99d5ce51d7a5094bebae6b6d9c9588
+  MaioSDK: 74ec58058941f41b008e66c119b01cef9ea4b7a9
+  NendSDK_iOS: 852e94a33864118ba12e248c9294f431e45d6bb1
 
-PODFILE CHECKSUM: a99e0517306f24c3d82f9fc6b1b4da96bed73499
+PODFILE CHECKSUM: 102f227c774a281c6863ab557a61a04b553147d3
 
 COCOAPODS: 1.11.2

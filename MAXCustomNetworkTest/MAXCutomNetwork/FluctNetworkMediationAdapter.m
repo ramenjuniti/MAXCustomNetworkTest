@@ -6,8 +6,9 @@
 //
 
 #import "FluctNetworkMediationAdapter.h"
+@import FluctSDK;
 
-@interface FluctNetworkMediationAdapter ()
+@interface FluctNetworkMediationAdapter () <FSSRewardedVideoDelegate>
 
 @end
 
@@ -17,6 +18,8 @@
     
     NSLog(@"initializeWithParameters: %@", parameters.customParameters.description);
     
+    FSSRewardedVideo.sharedInstance.delegate = self;
+
     completionHandler(MAAdapterInitializationStatusInitializedSuccess, nil);
 }
 
@@ -39,12 +42,14 @@
 
 - (void)loadRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告読み込み");
-//    [delegate didLoadRewardedAd];
+    [FSSRewardedVideo.sharedInstance loadRewardedVideoWithGroupId:@"1000083204" unitId:@"1000124351"];
+    [delegate didLoadRewardedAd];
 }
 
 - (void)showRewardedAdForParameters:(nonnull id<MAAdapterResponseParameters>)parameters andNotify:(nonnull id<MARewardedAdapterDelegate>)delegate {
     NSLog(@"flucSDKの広告表示");
-//    [delegate didDisplayRewardedAd];
+    [FSSRewardedVideo.sharedInstance presentRewardedVideoAdForGroupId:@"1000083204" unitId:@"1000124351" fromViewController:[ALUtils topViewControllerFromKeyWindow]];
+    [delegate didDisplayRewardedAd];
 }
 
 @end
